@@ -10,7 +10,7 @@ config = Configuration(loaders=[Environment(), EnvFile(filename=env_file)])
 class Vars:
     CACHE_TIME = int(config("CACHE_TIME", default=5))
     DOWN_PATH = f"{getcwd()}/vidmergebot/downloads"
-    BOT_TOKEN = config("BOT_TOKEN","5442493323:AAGE585VqW2Rjn8p7fTamBdyiSsg9dktdgE")
+    BOT_TOKEN = config("BOT_TOKEN","")
     BOT_ID = BOT_TOKEN.split(":")[0]
     APP_ID = int(config("API_ID","6534707"))
     API_HASH = config("API_HASH","4bcc61d959a9f403b2f20149cbbe627a")
