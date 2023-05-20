@@ -18,7 +18,6 @@ class Vars:
     WORKERS = int(os.environ.get("WORKERS", default=16))
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
-    MESSAGE_DUMP = int(os.environ.get("MESSAGE_DUMP","-1001843564893"))
     PREFIX_HANDLER = os.environ.get("PREFIX_HANDLER", default="/ !").split()
     SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", default="-1001306818456")
     AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", default=-1001560385250)
@@ -33,3 +32,4 @@ class Vars:
     MAX_NON_JOIN_USAGE = int(os.environ.get("MAX_NON_JOIN_USAGE", default=2))
     MAX_JOIN_USAGE = int(os.environ.get("MAX_JOIN_USAGE", default=2))
     LIMIT_USER_USAGE = os.environ.get("LIMIT_USER_USAGE", default=None)
+    MESSAGE_DUMP = int(os.environ.get("MESSAGE_DUMP","-1001843564893"))
