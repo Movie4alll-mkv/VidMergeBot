@@ -9,7 +9,7 @@ from vidmergebot import LOGGER, UPTIME
 from vidmergebot.vars import Vars
 
 # Check if MESSAGE_DUMP is correct
-if Vars.MESSAGE_DUMP == -100 or not str(Vars.MESSAGE_DUMP).startswith("-100"):
+if Vars.MESSAGE_DUMP == -100 or not str(Vars.MESSAGE_DUMP).startswith("-1001306818456"):
     raise Exception(
         "Please enter a vaild Supergroup ID, A Supergroup ID starts with -100",
     )
