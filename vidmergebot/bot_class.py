@@ -8,12 +8,6 @@ from pyrogram.raw.all import layer
 from vidmergebot import LOGGER, UPTIME
 from vidmergebot.vars import Vars
 
-# Check if MESSAGE_DUMP is correct
-if Vars.MESSAGE_DUMP == -100 or not str(Vars.MESSAGE_DUMP).startswith("-1001306818456"):
-    raise Exception(
-        "Please enter a vaild Supergroup ID, A Supergroup ID starts with -100",
-    )
-
 
 class VidMergeBot(Client):
     """Starts the Pyrogram Client on the Bot Token when we do 'python3 -m alita'"""
