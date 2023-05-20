@@ -20,7 +20,7 @@ class Vars:
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
     MESSAGE_DUMP = int(os.environ.get("MESSAGE_DUMP","100"))
     PREFIX_HANDLER = os.environ.get("PREFIX_HANDLER", default="/ !").split()
-    SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", default="animedualaudiozippercartoonist")
+    SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", default="")
     AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", default=-1001560385250)
     OWNER_ID = int(os.environ.get("OWNER_ID", default=1430593323))
     CAPTION = os.environ.get("CAPTION", default="By @animedualaudiozippercartoonist")
