@@ -25,7 +25,7 @@ class Vars:
     OWNER_ID = int(os.environ.get("OWNER_ID", default=1430593323))
     CAPTION = os.environ.get("CAPTION", default="By @animedualaudiozippercartoonist")
     VERSION = os.environ.get("VERSION", default="v1.1 - Stable")
-    STREAMTAPE_DEFAULT = os.environ.get("STREAMTAPE_DEFAULT", default=None, cast=os.environ.get.boolean)
+    STREAMTAPE_DEFAULT = os.environ.get("STREAMTAPE_DEFAULT", default=None, cast=os.environ.get.int)
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     DB_URI = config("DB_URI","mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", default=10))
