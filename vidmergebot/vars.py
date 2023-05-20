@@ -29,7 +29,7 @@ class Vars:
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     DB_URI = os.environ.get("DB_URI","mongodb+srv://Uploader:Uploader@cluster0.ba0ppxa.mongodb.net/?retryWrites=true&w=majority")
     MAX_VIDEOS = int(os.environ.get("MAX_VIDEOS", default=10))
-    JOIN_CHECK = os.environ.get("JOIN_CHECK", default=None, cast=os.environ.get)
+    JOIN_CHECK = os.environ.get("JOIN_CHECK", default=None)
     MAX_NON_JOIN_USAGE = int(os.environ.get("MAX_NON_JOIN_USAGE", default=2))
     MAX_JOIN_USAGE = int(os.environ.get("MAX_JOIN_USAGE", default=2))
     LIMIT_USER_USAGE = os.environ.get("LIMIT_USER_USAGE", default=None,cast=os.environ.get)
