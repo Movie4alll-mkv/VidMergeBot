@@ -32,4 +32,4 @@ class Vars:
     JOIN_CHECK = os.environ.get("JOIN_CHECK", default=None)
     MAX_NON_JOIN_USAGE = int(os.environ.get("MAX_NON_JOIN_USAGE", default=2))
     MAX_JOIN_USAGE = int(os.environ.get("MAX_JOIN_USAGE", default=2))
-    LIMIT_USER_USAGE = os.environ.get("LIMIT_USER_USAGE", default=None,cast=os.environ.get)
+    LIMIT_USER_USAGE = os.environ.get("LIMIT_USER_USAGE", default=None)
