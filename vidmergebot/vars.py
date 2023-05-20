@@ -18,7 +18,7 @@ class Vars:
     WORKERS = int(os.environ.get("WORKERS", default=16))
     STREAMTAPE_API_PASS = os.environ.get("STREAMTAPE_API_PASS")
     STREAMTAPE_API_USERNAME = os.environ.get("STREAMTAPE_API_USERNAME")
-    MESSAGE_DUMP = int(os.environ.get("MESSAGE_DUMP"))
+    MESSAGE_DUMP = int(os.environ.get("MESSAGE_DUMP","100"))
     PREFIX_HANDLER = os.environ.get("PREFIX_HANDLER", default="/ !").split()
     SUPPORT_GROUP = os.environ.get("SUPPORT_GROUP", default="animedualaudiozippercartoonist")
     AUTH_CHANNEL = os.environ.get("AUTH_CHANNEL", default=-1001560385250)
